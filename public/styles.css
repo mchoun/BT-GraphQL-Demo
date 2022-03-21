@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #777;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-weight: normal;
+  color: #333;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  margin: 1em;
+  cursor: pointer;
+}

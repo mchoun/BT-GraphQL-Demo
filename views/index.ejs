@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://js.braintreegateway.com/web/dropin/1.32.1/js/dropin.min.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Braintree Drop-in Example</h1>
+    <div id="dropin-container"></div>
+    <div class="btn-container">
+      <button class="btn" id="submit-button">Submit Payment</button>
+      <button class="btn" id="clear-data">Clear Data</button>
+    </div>
+    <section class="content-section container">
+      <h2 class="section-header">Payment Nonce</h2>
+      <p id="nonce-message"></p>
+      <h2 class="section-header">Response Message</h2>
+      <p id="response-message"></p>
+    </section>
+  </body>
+</html>
